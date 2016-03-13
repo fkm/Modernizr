@@ -10,7 +10,7 @@
   }]
 }
 !*/
-define(['Modernizr', 'modElem'], function(Modernizr, modElem) {
+define(['../../src/Modernizr', '../../src/modElem'], function(Modernizr, modElem) {
   Modernizr.addTest('cssexunit', function() {
     var elemStyle = modElem.elem.style;
     var supports;

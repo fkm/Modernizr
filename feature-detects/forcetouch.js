@@ -15,7 +15,7 @@ Force Touch Events allow custom behaviours and interactions to take place based 
 
 Force Touch events are available in OS X 10.11 and later on devices equipped with Force Touch trackpads.
 */
-define(['Modernizr', 'hasEvent', 'prefixed'], function(Modernizr, hasEvent, prefixed) {
+define(['../src/Modernizr', '../src/hasEvent', '../src/prefixed'], function(Modernizr, hasEvent, prefixed) {
   Modernizr.addTest('forcetouch', function() {
 		// github.com/Modernizr/Modernizr/issues/1613
     // Test if the browser supports the force touch event progression (see notes link)

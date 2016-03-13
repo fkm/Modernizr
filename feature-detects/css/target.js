@@ -15,7 +15,7 @@
 /* DOC
 Detects support for the ':target' CSS pseudo-class.
 */
-define(['Modernizr'], function(Modernizr) {
+define(['../../src/Modernizr'], function(Modernizr) {
   // querySelector
   Modernizr.addTest('target', function() {
     var doc = window.document;

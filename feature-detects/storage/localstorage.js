@@ -16,7 +16,7 @@
   ]
 }
 !*/
-define(['Modernizr'], function(Modernizr) {
+define(['../../src/Modernizr'], function(Modernizr) {
   // In FF4, if disabled, window.localStorage should === null.
 
   // Normally, we could not test that directly and need to do a

@@ -27,7 +27,7 @@
   }]
 }
 !*/
-define(['Modernizr', 'prefixes', 'createElement', 'testAllProps', 'addTest'], function(Modernizr, prefixes, createElement, testAllProps, addTest) {
+define(['../../src/Modernizr', '../../src/prefixes', '../../src/createElement', '../../src/testAllProps', '../../src/addTest'], function(Modernizr, prefixes, createElement, testAllProps, addTest) {
 
   Modernizr.addAsyncTest(function() {
     var waitTime = 300;

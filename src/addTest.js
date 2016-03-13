@@ -1,4 +1,4 @@
-define(['ModernizrProto', 'Modernizr', 'hasOwnProp', 'setClasses'], function(ModernizrProto, Modernizr, hasOwnProp, setClasses) {
+define(['./ModernizrProto', './Modernizr', './hasOwnProp', './setClasses'], function(ModernizrProto, Modernizr, hasOwnProp, setClasses) {
 
    // _l tracks listeners for async tests, as well as tests that execute after the initial run
   ModernizrProto._l = {};

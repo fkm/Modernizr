@@ -15,7 +15,7 @@
   ]
 }
 !*/
-define(['Modernizr', 'prefixed', 'docElement', 'createElement', 'isSVG'], function(Modernizr, prefixed, docElement, createElement, isSVG) {
+define(['../../src/Modernizr', '../../src/prefixed', '../../src/docElement', '../../src/createElement', '../../src/isSVG'], function(Modernizr, prefixed, docElement, createElement, isSVG) {
   Modernizr.addTest('wrapflow', function() {
     var prefixedProperty = prefixed('wrapFlow');
     if (!prefixedProperty || isSVG) {

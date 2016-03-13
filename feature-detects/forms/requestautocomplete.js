@@ -13,6 +13,6 @@
 When used with input[autocomplete] to annotate a form, form.requestAutocomplete() shows a dialog in Chrome that speeds up
 checkout flows (payments specific for now).
 */
-define(['Modernizr', 'createElement', 'prefixed'], function(Modernizr, createElement, prefixed) {
+define(['../../src/Modernizr', '../../src/createElement', '../../src/prefixed'], function(Modernizr, createElement, prefixed) {
   Modernizr.addTest('requestautocomplete', !!prefixed('requestAutocomplete', createElement('form')));
 });

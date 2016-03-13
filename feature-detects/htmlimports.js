@@ -20,6 +20,6 @@
 Detects support for HTML import, a feature that is used for loading in Web Components.
  */
 
-define(['addTest', 'createElement'], function(addTest, createElement) {
+define(['../src/addTest', '../src/createElement'], function(addTest, createElement) {
   addTest('htmlimports', 'import' in createElement('link'));
 });

@@ -17,7 +17,7 @@
 /* DOC
 Does the browser support HTML with non-standard / new elements?
 */
-define(['Modernizr', 'createElement'], function(Modernizr, createElement) {
+define(['../../src/Modernizr', '../../src/createElement'], function(Modernizr, createElement) {
   Modernizr.addTest('unknownelements', function() {
     var a = createElement('a');
     a.innerHTML = '<xyz></xyz>';

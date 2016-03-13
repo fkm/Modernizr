@@ -14,7 +14,7 @@
 /* DOC
 Tests for `CSS.escape()` support.
 */
-define(['Modernizr'], function(Modernizr) {
+define(['../../src/Modernizr'], function(Modernizr) {
   var CSS = window.CSS;
   Modernizr.addTest('cssescape', CSS ? typeof CSS.escape == 'function' : false);
 });

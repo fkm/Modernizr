@@ -14,7 +14,7 @@ the test can be combined:
 - `Modernizr.inputtypes.number && Modernizr.formvalidation` (browser supports rangeOverflow, typeMismatch etc. for type=number)
 - `Modernizr.input.required && Modernizr.formvalidation` (browser supports valueMissing)
 */
-define(['Modernizr', 'createElement', 'docElement', 'testStyles'], function(Modernizr, createElement, docElement, testStyles) {
+define(['../../src/Modernizr', '../../src/createElement', '../../src/docElement', '../../src/testStyles'], function(Modernizr, createElement, docElement, testStyles) {
   Modernizr.addTest('formvalidation', function() {
     var form = createElement('form');
     if (!('checkValidity' in form) || !('addEventListener' in form)) {

@@ -20,7 +20,7 @@ Detects support for native binary data manipulation via Typed Arrays in JavaScri
 
 Does not check for DataView support; use `Modernizr.dataview` for that.
 */
-define(['Modernizr'], function(Modernizr) {
+define(['../src/Modernizr'], function(Modernizr) {
   // Should fail in:
   // Internet Explorer <= 9
   // Firefox <= 3.6

@@ -1,4 +1,4 @@
-define(['ModernizrProto', 'injectElementWithStyles'], function(ModernizrProto, injectElementWithStyles) {
+define(['./ModernizrProto', './injectElementWithStyles'], function(ModernizrProto, injectElementWithStyles) {
   /**
    * testStyles injects an element with style element and some CSS rules
    *

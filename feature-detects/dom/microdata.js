@@ -10,6 +10,6 @@
   }]
 }
 !*/
-define(['Modernizr'], function(Modernizr) {
+define(['../../src/Modernizr'], function(Modernizr) {
   Modernizr.addTest('microdata', 'getItems' in document);
 });

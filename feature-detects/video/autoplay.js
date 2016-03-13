@@ -11,7 +11,7 @@
 /* DOC
 Checks for support of the autoplay attribute of the video element.
 */
-define(['Modernizr', 'addTest', 'docElement', 'createElement', 'test/video'], function(Modernizr, addTest, docElement, createElement) {
+define(['../../src/Modernizr', '../../src/addTest', '../../src/docElement', '../../src/createElement', '../video'], function(Modernizr, addTest, docElement, createElement) {
 
   Modernizr.addAsyncTest(function() {
     var timeout;

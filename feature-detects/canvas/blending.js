@@ -17,7 +17,7 @@
 /* DOC
 Detects if Photoshop style blending modes are available in canvas.
 */
-define(['Modernizr', 'createElement', 'test/canvas'], function(Modernizr, createElement) {
+define(['../../src/Modernizr', '../../src/createElement', '../canvas'], function(Modernizr, createElement) {
 
   Modernizr.addTest('canvasblending', function() {
     if (Modernizr.canvas === false) {

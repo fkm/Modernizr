@@ -1,4 +1,4 @@
-define(['tests', 'Modernizr', 'classes', 'is'], function(tests, Modernizr, classes, is) {
+define(['./tests', './Modernizr', './classes', './is'], function(tests, Modernizr, classes, is) {
   /**
    * Run through all tests and detect their support in the current UA.
    *

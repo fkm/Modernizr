@@ -33,7 +33,7 @@ It's recommended to bind both mouse and touch/pointer events simultaneously – 
 
 This test will also return `true` for Firefox 4 Multitouch support.
 */
-define(['Modernizr', 'prefixes', 'testStyles'], function(Modernizr, prefixes, testStyles) {
+define(['../src/Modernizr', '../src/prefixes', '../src/testStyles'], function(Modernizr, prefixes, testStyles) {
   // Chrome (desktop) used to lie about its support on this, but that has since been rectified: http://crbug.com/36415
   Modernizr.addTest('touchevents', function() {
     var bool;

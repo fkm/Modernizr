@@ -6,7 +6,7 @@
   "polyfills": ["joshuabell-polyfill", "cupcake", "sessionstorage"]
 }
 !*/
-define(['Modernizr'], function(Modernizr) {
+define(['../../src/Modernizr'], function(Modernizr) {
   // Because we are forced to try/catch this, we'll go aggressive.
 
   // Just FWIW: IE8 Compat mode supports these features completely:

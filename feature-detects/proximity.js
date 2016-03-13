@@ -17,7 +17,7 @@
 /* DOC
 Detects support for an API that allows users to get proximity related information from the device's proximity sensor.
 */
-define(['Modernizr', 'addTest'], function(Modernizr, addTest) {
+define(['../src/Modernizr', '../src/addTest'], function(Modernizr, addTest) {
 
   Modernizr.addAsyncTest(function() {
 

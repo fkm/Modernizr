@@ -13,6 +13,6 @@
 /* DOC
 Detects support for the Web Animation API, a way to create css animations in js
 */
-define(['Modernizr', 'createElement'], function(Modernizr, createElement) {
+define(['../src/Modernizr', '../src/createElement'], function(Modernizr, createElement) {
   Modernizr.addTest('webanimations', 'animate' in createElement('div'));
 });

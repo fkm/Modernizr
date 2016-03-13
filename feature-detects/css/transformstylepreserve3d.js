@@ -16,7 +16,7 @@
 /* DOC
 Detects support for `transform-style: preserve-3d`, for getting a proper 3D perspective on elements.
 */
-define(['Modernizr', 'createElement', 'docElement'], function(Modernizr, createElement, docElement) {
+define(['../../src/Modernizr', '../../src/createElement', '../../src/docElement'], function(Modernizr, createElement, docElement) {
   Modernizr.addTest('preserve3d', function() {
     var outerDiv = createElement('div');
     var innerDiv = createElement('div');

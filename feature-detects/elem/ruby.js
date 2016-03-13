@@ -12,7 +12,7 @@
   }]
 }
 !*/
-define(['Modernizr', 'createElement', 'docElement'], function(Modernizr, createElement, docElement) {
+define(['../../src/Modernizr', '../../src/createElement', '../../src/docElement'], function(Modernizr, createElement, docElement) {
   Modernizr.addTest('ruby', function() {
 
     var ruby = createElement('ruby');

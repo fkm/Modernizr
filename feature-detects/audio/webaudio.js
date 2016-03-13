@@ -16,7 +16,7 @@
 /* DOC
 Detects the older non standard webaudio API, (as opposed to the standards based AudioContext API)
 */
-define(['Modernizr'], function(Modernizr) {
+define(['../../src/Modernizr'], function(Modernizr) {
   Modernizr.addTest('webaudio', function() {
     var prefixed = 'webkitAudioContext' in window;
     var unprefixed = 'AudioContext' in window;

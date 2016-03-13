@@ -1,4 +1,4 @@
-define(['is'], function(is) {
+define(['./is'], function(is) {
   /**
    * hasOwnProp is a shim for hasOwnProperty that is needed for Safari 2.0 support
    *

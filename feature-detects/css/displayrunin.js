@@ -14,7 +14,7 @@
   }]
 }
 !*/
-define(['Modernizr', 'testAllProps'], function(Modernizr, testAllProps) {
+define(['../../src/Modernizr', '../../src/testAllProps'], function(Modernizr, testAllProps) {
   Modernizr.addTest('displayrunin', testAllProps('display', 'run-in'),
     {aliases: ['display-runin']});
 });

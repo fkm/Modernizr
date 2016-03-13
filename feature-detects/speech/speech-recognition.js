@@ -17,6 +17,6 @@
 }
 !*/
 
-define(['Modernizr', 'prefixed'], function(Modernizr, prefixed) {
+define(['../../src/Modernizr', '../../src/prefixed'], function(Modernizr, prefixed) {
   Modernizr.addTest('speechrecognition', !!prefixed('SpeechRecognition', window));
 });

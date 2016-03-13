@@ -1,4 +1,4 @@
-define(['contains', 'mStyle', 'createElement', 'nativeTestProps', 'is', 'cssToDOM'], function(contains, mStyle, createElement, nativeTestProps, is, cssToDOM) {
+define(['./contains', './mStyle', './createElement', './nativeTestProps', './is', './cssToDOM'], function(contains, mStyle, createElement, nativeTestProps, is, cssToDOM) {
   // testProps is a generic CSS / DOM property test.
 
   // In testing support for a given CSS property, it's legit to test:

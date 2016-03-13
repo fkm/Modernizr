@@ -17,7 +17,7 @@
 /* DOC
 Test for the `sizes` attribute on images
 */
-define(['Modernizr', 'createElement', 'addTest'], function(Modernizr, createElement, addTest) {
+define(['../../src/Modernizr', '../../src/createElement', '../../src/addTest'], function(Modernizr, createElement, addTest) {
   Modernizr.addAsyncTest(function() {
     var width1, width2, test;
     var image = createElement('img');

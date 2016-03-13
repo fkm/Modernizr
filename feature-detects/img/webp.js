@@ -35,7 +35,7 @@ Tests for all forms of webp support (lossless, lossy, alpha, and animated)..
   Modernizr.webp.animation    // Animated WebP
 
 */
-define(['Modernizr', 'addTest'], function(Modernizr, addTest) {
+define(['../../src/Modernizr', '../../src/addTest'], function(Modernizr, addTest) {
 
   Modernizr.addAsyncTest(function() {
 

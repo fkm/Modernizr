@@ -15,7 +15,7 @@
 /* DOC
 Detects support for MathML, for mathematic equations in web pages.
 */
-define(['Modernizr', 'testStyles'], function(Modernizr, testStyles) {
+define(['../src/Modernizr', '../src/testStyles'], function(Modernizr, testStyles) {
   // Based on work by Davide (@dpvc) and David (@davidcarlisle)
   // in https://github.com/mathjax/MathJax/issues/182
 

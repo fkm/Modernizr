@@ -26,7 +26,7 @@
   }]
 }
 !*/
-define(['Modernizr', 'testStyles'], function(Modernizr, testStyles) {
+define(['../../src/Modernizr', '../../src/testStyles'], function(Modernizr, testStyles) {
   var blacklist = (function() {
     var ua = navigator.userAgent;
     var wkvers = ua.match(/applewebkit\/([0-9]+)/gi) && parseFloat(RegExp.$1);

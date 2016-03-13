@@ -16,7 +16,7 @@
 /* DOC
 Detects overlay scrollbars (when scrollbars on overflowed blocks are visible). This is found most commonly on mobile and OS X.
 */
-define(['Modernizr', 'testStyles'], function(Modernizr, testStyles) {
+define(['../src/Modernizr', '../src/testStyles'], function(Modernizr, testStyles) {
   Modernizr.addTest('hiddenscroll', function() {
     return testStyles('#modernizr {width:100px;height:100px;overflow:scroll}', function(elem) {
       return elem.offsetWidth === elem.clientWidth;

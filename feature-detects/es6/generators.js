@@ -9,7 +9,7 @@
 /* DOC
 Check if browser implements ECMAScript 6 Generators per specification.
 */
-define(['Modernizr'], function(Modernizr) {
+define(['../../src/Modernizr'], function(Modernizr) {
   Modernizr.addTest('generators', function() {
     try {
       /* jshint evil: true */

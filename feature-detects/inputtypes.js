@@ -40,7 +40,7 @@ Modernizr.inputtypes.url
 Modernizr.inputtypes.week
 ```
 */
-define(['Modernizr', 'inputElem', 'docElement'], function(Modernizr, inputElem, docElement) {
+define(['../src/Modernizr', '../src/inputElem', '../src/docElement'], function(Modernizr, inputElem, docElement) {
   // Run through HTML5's new input types to see if the UA understands any.
   //   This is put behind the tests runloop because it doesn't return a
   //   true/false like all the other tests; instead, it returns an object

@@ -5,7 +5,7 @@
   "tags": ["css"]
 }
 !*/
-define(['Modernizr', 'testStyles', 'test/css/animations'], function(Modernizr) {
+define(['../../src/Modernizr', '../../src/testStyles', '../css/animations'], function(Modernizr) {
   Modernizr.addTest('csspseudoanimations', function() {
     var result = false;
 

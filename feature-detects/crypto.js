@@ -17,7 +17,7 @@
 /* DOC
 Detects support for the cryptographic functionality available under window.crypto.subtle
 */
-define(['Modernizr', 'prefixed'], function(Modernizr, prefixed) {
+define(['../src/Modernizr', '../src/prefixed'], function(Modernizr, prefixed) {
   var crypto = prefixed('crypto', window);
   Modernizr.addTest('crypto', !!prefixed('subtle', crypto));
 });

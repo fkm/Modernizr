@@ -5,6 +5,6 @@
   "tags": ["video", "media"]
 }
 !*/
-define(['Modernizr', 'createElement'], function(Modernizr, createElement) {
+define(['../../src/Modernizr', '../../src/createElement'], function(Modernizr, createElement) {
   Modernizr.addTest('videopreload', 'preload' in createElement('video'));
 });

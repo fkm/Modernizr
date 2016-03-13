@@ -11,7 +11,7 @@
 /* DOC
 Template strings are string literals allowing embedded expressions.
 */
-define(['Modernizr'], function(Modernizr) {
+define(['../src/Modernizr'], function(Modernizr) {
   Modernizr.addTest('templatestrings', function() {
     var supports;
     try {

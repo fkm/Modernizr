@@ -1,4 +1,4 @@
-define(['is', 'fnBind'], function(is, fnBind) {
+define(['./is', './fnBind'], function(is, fnBind) {
   /**
    * testDOMProps is a generic DOM property test; if a browser supports
    *   a certain property, it won't return undefined for it.

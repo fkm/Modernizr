@@ -9,7 +9,7 @@
 /* DOC
 Detects Flash support as well as Flash-blocking plugins
 */
-define(['Modernizr', 'createElement', 'docElement', 'addTest', 'getBody', 'isSVG'], function(Modernizr, createElement, docElement, addTest, getBody, isSVG) {
+define(['../src/Modernizr', '../src/createElement', '../src/docElement', '../src/addTest', '../src/getBody', '../src/isSVG'], function(Modernizr, createElement, docElement, addTest, getBody, isSVG) {
   Modernizr.addAsyncTest(function() {
     /* jshint -W053 */
 

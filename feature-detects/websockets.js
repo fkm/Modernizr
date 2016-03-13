@@ -24,7 +24,7 @@
   ]
 }
 !*/
-define(['Modernizr'], function(Modernizr) {
+define(['../src/Modernizr'], function(Modernizr) {
   var supports = false;
   try {
     supports = 'WebSocket' in window && window.WebSocket.CLOSING === 2;

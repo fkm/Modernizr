@@ -22,6 +22,6 @@
 Detects support for an API that provides utility methods for working with the query string of a URL.
 */
 
-define(['Modernizr'], function(Modernizr) {
+define(['../../src/Modernizr'], function(Modernizr) {
   Modernizr.addTest('urlsearchparams', 'URLSearchParams' in window);
 });

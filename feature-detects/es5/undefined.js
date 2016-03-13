@@ -16,7 +16,7 @@
 /* DOC
 Check if browser prevents assignment to global `undefined` per ECMAScript 5.
 */
-define(['Modernizr'], function(Modernizr) {
+define(['../../src/Modernizr'], function(Modernizr) {
   Modernizr.addTest('es5undefined', function() {
     var result, originalUndefined;
     try {

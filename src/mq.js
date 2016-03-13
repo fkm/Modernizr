@@ -1,4 +1,4 @@
-define(['ModernizrProto', 'injectElementWithStyles'], function(ModernizrProto, injectElementWithStyles) {
+define(['./ModernizrProto', './injectElementWithStyles'], function(ModernizrProto, injectElementWithStyles) {
   /**
    * Modernizr.mq tests a given media query, live against the current state of the window
    * adapted from matchMedia polyfill by Scott Jehl and Paul Irish

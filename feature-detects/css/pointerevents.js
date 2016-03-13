@@ -24,7 +24,7 @@
   ]
 }
 !*/
-define(['Modernizr', 'createElement'], function(Modernizr, createElement) {
+define(['../../src/Modernizr', '../../src/createElement'], function(Modernizr, createElement) {
   Modernizr.addTest('csspointerevents', function() {
     var style = createElement('a').style;
     style.cssText = 'pointer-events:auto';

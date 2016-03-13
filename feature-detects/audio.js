@@ -8,7 +8,7 @@
 /* DOC
 Detects the audio element
 */
-define(['Modernizr', 'createElement'], function(Modernizr, createElement) {
+define(['../src/Modernizr', '../src/createElement'], function(Modernizr, createElement) {
   // This tests evaluates support of the audio element, as well as
   // testing what types of content it supports.
   //

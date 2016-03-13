@@ -18,6 +18,6 @@
 /* DOC
 Detects support for XDomainRequest in IE9 & IE8
 */
-define(['Modernizr'], function(Modernizr) {
+define(['../src/Modernizr'], function(Modernizr) {
   Modernizr.addTest('xdomainrequest', 'XDomainRequest' in window);
 });

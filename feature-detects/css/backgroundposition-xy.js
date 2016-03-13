@@ -17,7 +17,7 @@
 /* DOC
 Detects the ability to control an element's background position using css
 */
-define(['Modernizr', 'testAllProps'], function(Modernizr, testAllProps) {
+define(['../../src/Modernizr', '../../src/testAllProps'], function(Modernizr, testAllProps) {
   Modernizr.addTest('bgpositionxy', function() {
     return testAllProps('backgroundPositionX', '3px', true) && testAllProps('backgroundPositionY', '5px', true);
   });

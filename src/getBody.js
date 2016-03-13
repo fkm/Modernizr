@@ -1,4 +1,4 @@
-define(['createElement', 'isSVG'], function(createElement, isSVG) {
+define(['./createElement', './isSVG'], function(createElement, isSVG) {
   /**
    * getBody returns the body of a document, or an element that can stand in for
    * the body if a real body does not exist

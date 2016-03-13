@@ -10,7 +10,7 @@
 /* DOC
 Detects if audio can be downloaded in the background before it starts playing in the `<audio>` element
 */
-define(['Modernizr', 'addTest', 'docElement', 'createElement', 'test/audio'], function(Modernizr, addTest, docElement, createElement) {
+define(['../../src/Modernizr', '../../src/addTest', '../../src/docElement', '../../src/createElement', '../audio'], function(Modernizr, addTest, docElement, createElement) {
 
   Modernizr.addAsyncTest(function() {
     var timeout;

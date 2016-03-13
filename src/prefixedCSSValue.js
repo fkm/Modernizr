@@ -1,4 +1,4 @@
-define(['ModernizrProto', 'domPrefixes', 'createElement'], function(ModernizrProto, domPrefixes, createElement) {
+define(['./ModernizrProto', './domPrefixes', './createElement'], function(ModernizrProto, domPrefixes, createElement) {
   /**
    * prefixedCSSValue is a way test for prefixed css properties (e.g. display: -webkit-flex)
    *

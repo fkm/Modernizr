@@ -12,7 +12,7 @@
   }]
 }
 !*/
-define(['Modernizr', 'createElement', 'docElement', 'testStyles'], function(Modernizr, createElement, docElement, testStyles) {
+define(['../../src/Modernizr', '../../src/createElement', '../../src/docElement', '../../src/testStyles'], function(Modernizr, createElement, docElement, testStyles) {
   Modernizr.addTest('details', function() {
     var el = createElement('details');
     var diff;

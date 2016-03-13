@@ -1,4 +1,4 @@
-define(['ModernizrProto', 'createElement'], function(ModernizrProto, createElement) {
+define(['./ModernizrProto', './createElement'], function(ModernizrProto, createElement) {
   /**
    * Modernizr.hasEvent() detects support for a given event
    *

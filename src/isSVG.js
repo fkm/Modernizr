@@ -1,4 +1,4 @@
-define(['docElement'], function(docElement) {
+define(['./docElement'], function(docElement) {
   /**
    * A convenience helper to check if the document we are running in is an SVG document
    *

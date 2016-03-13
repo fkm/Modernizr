@@ -1,4 +1,4 @@
-define(['isSVG'], function(isSVG) {
+define(['./isSVG'], function(isSVG) {
 /**
   * @optionName html5shiv
   * @optionProp html5shiv

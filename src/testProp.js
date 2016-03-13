@@ -1,4 +1,4 @@
-define(['ModernizrProto', 'testProps'], function(ModernizrProto, testProps) {
+define(['./ModernizrProto', './testProps'], function(ModernizrProto, testProps) {
   /**
    * testProp() investigates whether a given style property is recognized
    * Property names can be provided in either camelCase or kebab-case.

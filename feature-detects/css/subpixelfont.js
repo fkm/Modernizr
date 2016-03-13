@@ -17,7 +17,7 @@
   }]
 }
 !*/
-define(['Modernizr', 'testStyles'], function(Modernizr, testStyles) {
+define(['../../src/Modernizr', '../../src/testStyles'], function(Modernizr, testStyles) {
   /*
    * (to infer if GDI or DirectWrite is used on Windows)
    */

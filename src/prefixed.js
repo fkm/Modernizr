@@ -1,4 +1,4 @@
-define(['ModernizrProto', 'testPropsAll', 'cssToDOM', 'atRule'], function(ModernizrProto, testPropsAll, cssToDOM, atRule) {
+define(['./ModernizrProto', './testPropsAll', './cssToDOM', './atRule'], function(ModernizrProto, testPropsAll, cssToDOM, atRule) {
   /**
    * prefixed returns the prefixed or nonprefixed property name variant of your input
    *

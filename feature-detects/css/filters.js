@@ -12,7 +12,7 @@
   }]
 }
 !*/
-define(['Modernizr', 'createElement', 'prefixes', 'testAllProps', 'test/css/supports'], function(Modernizr, createElement, prefixes, testAllProps) {
+define(['../../src/Modernizr', '../../src/createElement', '../../src/prefixes', '../../src/testAllProps', '../css/supports'], function(Modernizr, createElement, prefixes, testAllProps) {
   Modernizr.addTest('cssfilters', function() {
     if (Modernizr.supports) {
       return testAllProps('filter', 'blur(2px)');

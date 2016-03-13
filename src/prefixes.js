@@ -1,4 +1,4 @@
-define(['ModernizrProto'], function(ModernizrProto) {
+define(['./ModernizrProto'], function(ModernizrProto) {
   /**
    * List of property values to set for css tests. See ticket #21
    * http://git.io/vUGl4

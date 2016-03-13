@@ -9,7 +9,7 @@
   ]
 }
 !*/
-define(['Modernizr', 'testAllProps', 'testStyles', 'docElement', 'test/css/supports'], function(Modernizr, testAllProps, testStyles, docElement) {
+define(['../../src/Modernizr', '../../src/testAllProps', '../../src/testStyles', '../../src/docElement', '../css/supports'], function(Modernizr, testAllProps, testStyles, docElement) {
   Modernizr.addTest('csstransforms3d', function() {
     var ret = !!testAllProps('perspective', '1px', true);
     var usePrefix = Modernizr._config.usePrefixes;

@@ -25,7 +25,7 @@ if ('OES_vertex_array_object' in Modernizr.webglextensions) {
 }
 ```
 */
-define(['Modernizr', 'createElement', 'test/webgl'], function(Modernizr, createElement) {
+define(['../../src/Modernizr', '../../src/createElement', '../webgl'], function(Modernizr, createElement) {
   // based on code from ilmari heikkinen
   // code.google.com/p/graphics-detect/source/browse/js/detect.js
 

@@ -1,4 +1,4 @@
-define(['injectElementWithStyles', 'domToCSS'], function(injectElementWithStyles, domToCSS) {
+define(['./injectElementWithStyles', './domToCSS'], function(injectElementWithStyles, domToCSS) {
   /**
    * nativeTestProps allows for us to use native feature detection functionality if available.
    * some prefixed form, or false, in the case of an unsupported rule

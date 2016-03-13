@@ -12,6 +12,6 @@
 /* DOC
 Tests for XMLHttpRequest xhr.responseType='arraybuffer'.
 */
-define(['Modernizr', 'testXhrType'], function(Modernizr, testXhrType) {
+define(['../../src/Modernizr', '../../src/testXhrType'], function(Modernizr, testXhrType) {
   Modernizr.addTest('xhrresponsetypearraybuffer', testXhrType('arraybuffer'));
 });

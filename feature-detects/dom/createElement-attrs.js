@@ -11,7 +11,7 @@
   }]
 }
 !*/
-define(['Modernizr', 'createElement'], function(Modernizr, createElement) {
+define(['../../src/Modernizr', '../../src/createElement'], function(Modernizr, createElement) {
   Modernizr.addTest('createelementattrs', function() {
     try {
       return createElement('<input name="test" />').getAttribute('name') == 'test';

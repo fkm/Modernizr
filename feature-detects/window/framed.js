@@ -9,7 +9,7 @@
 /* DOC
 Tests if page is iframed.
 */
-define(['Modernizr'], function(Modernizr) {
+define(['../../src/Modernizr'], function(Modernizr) {
   // github.com/Modernizr/Modernizr/issues/242
 
   Modernizr.addTest('framed', window.location != top.location);

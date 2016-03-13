@@ -16,7 +16,7 @@
 /* DOC
 Detects support for creating Web Workers from Blob URIs.
 */
-define(['Modernizr', 'addTest'], function(Modernizr, addTest) {
+define(['../../src/Modernizr', '../../src/addTest'], function(Modernizr, addTest) {
   Modernizr.addAsyncTest(function() {
     try {
       // we're avoiding using Modernizr._domPrefixes as the prefix capitalization on

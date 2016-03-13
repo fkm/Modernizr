@@ -21,7 +21,7 @@ Modernizr.datauri           // true
 Modernizr.datauri.over32kb  // false in IE8
 ```
 */
-define(['Modernizr', 'addTest'], function(Modernizr, addTest) {
+define(['../../src/Modernizr', '../../src/addTest'], function(Modernizr, addTest) {
   // https://github.com/Modernizr/Modernizr/issues/14
   Modernizr.addAsyncTest(function() {
     /* jshint -W053 */

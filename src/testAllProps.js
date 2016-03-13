@@ -1,4 +1,4 @@
-define(['ModernizrProto', 'testPropsAll'], function(ModernizrProto, testPropsAll) {
+define(['./ModernizrProto', './testPropsAll'], function(ModernizrProto, testPropsAll) {
   /**
    * testAllProps determines whether a given CSS property is supported in the browser
    *

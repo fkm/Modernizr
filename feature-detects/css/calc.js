@@ -17,7 +17,7 @@ Method of allowing calculated values for length units. For example:
 }
 ```
 */
-define(['Modernizr', 'createElement', 'prefixes'], function(Modernizr, createElement, prefixes) {
+define(['../../src/Modernizr', '../../src/createElement', '../../src/prefixes'], function(Modernizr, createElement, prefixes) {
   Modernizr.addTest('csscalc', function() {
     var prop = 'width:';
     var value = 'calc(10px);';

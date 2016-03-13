@@ -11,7 +11,7 @@
 /* DOC
 Detect support for the bdi element, a way to have text that is isolated from its possibly bidirectional surroundings
 */
-define(['Modernizr', 'createElement', 'docElement'], function(Modernizr, createElement, docElement) {
+define(['../../src/Modernizr', '../../src/createElement', '../../src/docElement'], function(Modernizr, createElement, docElement) {
   Modernizr.addTest('bdi', function() {
     var div = createElement('div');
     var bdi = createElement('bdi');

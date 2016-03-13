@@ -15,7 +15,7 @@
 /* DOC
 Test for JPEG 2000 support
 */
-define(['Modernizr', 'addTest'], function(Modernizr, addTest) {
+define(['../../src/Modernizr', '../../src/addTest'], function(Modernizr, addTest) {
 
   Modernizr.addAsyncTest(function() {
     var image = new Image();

@@ -10,7 +10,7 @@
   }]
 }
 !*/
-define(['Modernizr', 'createElement', 'testStyles'], function(Modernizr, createElement, testStyles) {
+define(['../../src/Modernizr', '../../src/createElement', '../../src/testStyles'], function(Modernizr, createElement, testStyles) {
   Modernizr.addTest('checked', function() {
     return testStyles('#modernizr {position:absolute} #modernizr input {margin-left:10px} #modernizr :checked {margin-left:20px;display:block}', function(elem) {
       var cb = createElement('input');

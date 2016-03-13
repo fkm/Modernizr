@@ -17,7 +17,7 @@
 /* DOC
 Detects support for VML.
 */
-define(['Modernizr', 'createElement', 'isSVG'], function(Modernizr, createElement, isSVG) {
+define(['../src/Modernizr', '../src/createElement', '../src/isSVG'], function(Modernizr, createElement, isSVG) {
   Modernizr.addTest('vml', function() {
     var containerDiv = createElement('div');
     var supports = false;

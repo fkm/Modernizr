@@ -1,4 +1,4 @@
-define(['tests'], function(tests) {
+define(['./tests'], function(tests) {
   /**
    *
    * ModernizrProto is the constructor for Modernizr

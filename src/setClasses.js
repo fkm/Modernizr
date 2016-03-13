@@ -1,4 +1,4 @@
-define(['Modernizr', 'docElement', 'isSVG'], function(Modernizr, docElement, isSVG) {
+define(['./Modernizr', './docElement', './isSVG'], function(Modernizr, docElement, isSVG) {
   /**
    * setClasses takes an array of class names and adds them to the root element
    *

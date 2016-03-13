@@ -14,7 +14,7 @@
 /* DOC
 Check if browser implements the URL constructor for parsing URLs.
 */
-define(['Modernizr'], function(Modernizr) {
+define(['../../src/Modernizr'], function(Modernizr) {
   Modernizr.addTest('urlparser', function() {
     var url;
     try {

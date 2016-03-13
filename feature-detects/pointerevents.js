@@ -17,7 +17,7 @@
 /* DOC
 Detects support for the DOM Pointer Events API, which provides a unified event interface for pointing input devices, as implemented in IE10+.
 */
-define(['Modernizr', 'domPrefixes', 'hasEvent'], function(Modernizr, domPrefixes, hasEvent) {
+define(['../src/Modernizr', '../src/domPrefixes', '../src/hasEvent'], function(Modernizr, domPrefixes, hasEvent) {
   // **Test name hijacked!**
   // Now refers to W3C DOM PointerEvents spec rather than the CSS pointer-events property.
   Modernizr.addTest('pointerevents', function() {

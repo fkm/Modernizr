@@ -14,7 +14,7 @@
 /* DOC
 Test for animated png support.
 */
-define(['Modernizr', 'createElement', 'addTest', 'test/canvas'], function(Modernizr, createElement, addTest) {
+define(['../../src/Modernizr', '../../src/createElement', '../../src/addTest', '../canvas'], function(Modernizr, createElement, addTest) {
   Modernizr.addAsyncTest(function() {
     if (!Modernizr.canvas) {
       return false;

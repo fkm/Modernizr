@@ -15,7 +15,7 @@
   }]
 }
 !*/
-define(['Modernizr', 'test/input'], function(Modernizr) {
+define(['../../src/Modernizr', '../input'], function(Modernizr) {
   // lol. we already have a test for datalist built in! silly you.
   // Leaving it around in case anyone's using it
 

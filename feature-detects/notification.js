@@ -23,7 +23,7 @@
 /* DOC
 Detects support for the Notifications API
 */
-define(['Modernizr'], function(Modernizr) {
+define(['../src/Modernizr'], function(Modernizr) {
   Modernizr.addTest('notification', function() {
     if (!window.Notification || !window.Notification.requestPermission) {
       return false;

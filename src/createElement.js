@@ -1,4 +1,4 @@
-define(['isSVG'], function(isSVG) {
+define(['./isSVG'], function(isSVG) {
   /**
    * createElement is a convenience wrapper around document.createElement. Since we
    * use createElement all over the place, this allows for (slightly) smaller code

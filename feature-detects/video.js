@@ -27,7 +27,7 @@ Modernizr.video         // true
 Modernizr.video.ogg     // 'probably'
 ```
 */
-define(['Modernizr', 'createElement'], function(Modernizr, createElement) {
+define(['../src/Modernizr', '../src/createElement'], function(Modernizr, createElement) {
   // Codec values from : github.com/NielsLeenheer/html5test/blob/9106a8/index.html#L845
   //                     thx to NielsLeenheer and zcorpan
 

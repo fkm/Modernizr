@@ -18,7 +18,7 @@
 /* DOC
 Tests for animated webp support.
 */
-define(['Modernizr', 'addTest'], function(Modernizr, addTest) {
+define(['../../src/Modernizr', '../../src/addTest'], function(Modernizr, addTest) {
   Modernizr.addAsyncTest(function() {
     var image = new Image();
 

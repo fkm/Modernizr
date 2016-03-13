@@ -1,4 +1,4 @@
-define(['ModernizrProto', 'omPrefixes'], function(ModernizrProto, omPrefixes) {
+define(['./ModernizrProto', './omPrefixes'], function(ModernizrProto, omPrefixes) {
   /**
    * List of JavaScript DOM values used for tests
    *

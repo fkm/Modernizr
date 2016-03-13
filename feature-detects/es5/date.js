@@ -14,7 +14,7 @@
 /* DOC
 Check if browser implements ECMAScript 5 Date per specification.
 */
-define(['Modernizr'], function(Modernizr) {
+define(['../../src/Modernizr'], function(Modernizr) {
   Modernizr.addTest('es5date', function() {
     var isoDate = '2013-04-12T06:06:37.307Z',
       canParseISODate = false;

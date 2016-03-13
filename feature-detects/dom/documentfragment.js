@@ -20,7 +20,7 @@
 /* DOC
 Append multiple elements to the DOM within a single insertion.
 */
-define(['Modernizr', 'docElement'], function(Modernizr, docElement) {
+define(['../../src/Modernizr', '../../src/docElement'], function(Modernizr, docElement) {
   Modernizr.addTest('documentfragment', function() {
     return 'createDocumentFragment' in document &&
       'appendChild' in docElement;

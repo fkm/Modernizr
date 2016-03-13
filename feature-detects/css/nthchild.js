@@ -21,7 +21,7 @@
 /* DOC
 Detects support for the ':nth-child()' CSS pseudo-selector.
 */
-define(['Modernizr', 'testStyles'], function(Modernizr, testStyles) {
+define(['../../src/Modernizr', '../../src/testStyles'], function(Modernizr, testStyles) {
   // 5 `<div>` elements with `1px` width are created.
   // Then every other element has its `width` set to `2px`.
   // A Javascript loop then tests if the `<div>`s have the expected width

@@ -11,6 +11,6 @@
   }]
 }
 !*/
-define(['Modernizr', 'prefixed'], function(Modernizr, prefixed) {
+define(['../../src/Modernizr', '../../src/prefixed'], function(Modernizr, prefixed) {
   Modernizr.addTest('objectfit', !!prefixed('objectFit'), {aliases: ['object-fit']});
 });

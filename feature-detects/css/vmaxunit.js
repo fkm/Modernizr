@@ -14,7 +14,7 @@
   }]
 }
 !*/
-define(['Modernizr', 'docElement', 'testStyles', 'roundedEquals'], function(Modernizr, docElement, testStyles, roundedEquals) {
+define(['../../src/Modernizr', '../../src/docElement', '../../src/testStyles', '../../src/roundedEquals'], function(Modernizr, docElement, testStyles, roundedEquals) {
   testStyles('#modernizr1{width: 50vmax}#modernizr2{width:50px;height:50px;overflow:scroll}#modernizr3{position:fixed;top:0;left:0;bottom:0;right:0}', function(node) {
     var elem = node.childNodes[2];
     var scroller = node.childNodes[1];

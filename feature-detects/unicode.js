@@ -11,7 +11,7 @@
 /* DOC
 Detects if unicode characters are supported in the current document.
 */
-define(['Modernizr', 'createElement', 'testStyles', 'isSVG'], function(Modernizr, createElement, testStyles, isSVG) {
+define(['../src/Modernizr', '../src/createElement', '../src/testStyles', '../src/isSVG'], function(Modernizr, createElement, testStyles, isSVG) {
   /**
    * Unicode special character support
    *

@@ -17,7 +17,7 @@
 /* DOC
 Check if browser accepts ECMAScript 5 syntax.
 */
-define(['Modernizr'], function(Modernizr) {
+define(['../../src/Modernizr'], function(Modernizr) {
   Modernizr.addTest('es5syntax', function() {
     var value, obj, stringAccess, getter, setter, reservedWords, zeroWidthChars;
     try {
